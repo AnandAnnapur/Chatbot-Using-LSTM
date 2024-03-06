@@ -17,6 +17,8 @@ LSTM is a type of recurrent neural network which is better than simple RNN as LS
 
 **API built:** Keras Functional API
 
+## Working
+
 #### Step 1: Data Extraction and Preprocessing 
 - The dataset hails from [chatterbot/english on Kaggle](https://www.kaggle.com/kausr25/chatterbotenglish).com by [kausr25](https://www.kaggle.com/kausr25). - It contains pairs of questions and answers based on a number of subjects like food, history, AI etc
 
