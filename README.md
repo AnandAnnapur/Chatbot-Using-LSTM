@@ -2,6 +2,20 @@
 LSTMs Long Short-Term Memory is a type of RNNs Recurrent Neural Network that can detain long-term dependencies in sequential data. LSTMs are able to process and analyze sequential data, such as time series, text, and speech. They use a memory cell and gates to control the flow of information, allowing them to selectively retain or discard information as needed and thus avoid the vanishing gradient problem that plagues traditional RNNs. LSTMs are widely used in various applications such as natural language processing, speech recognition, and time series forecasting.
 
 ## Why is LSTM used in chatbots
+LSTM is a type of recurrent neural network which is better than simple RNN as LSTMs are designed to capture not only state of previous inputs but also it carries memories of previous inputs of the sequence, which is not the case with RNN. LSTM are used in processing large sequences. It is applied in conversational AI to predict the next word.
+
+## Requirments
+**Code and Resources Used**
+
+**Language:** Python 3.11
+
+**Dataset:** [Chatterbot Kaggle English Dataset](https://www.kaggle.com/kausr25/chatterbotenglish)
+
+**Pakages Used:** numpy, tensorflow, pickle, keras
+
+**Model Used:** Seq2Seq LSTM model 
+
+**API built:** Keras Functional API
 
 #### Step 1: Data Extraction and Preprocessing 
 - The dataset hails from [chatterbot/english on Kaggle](https://www.kaggle.com/kausr25/chatterbotenglish).com by [kausr25](https://www.kaggle.com/kausr25). - It contains pairs of questions and answers based on a number of subjects like food, history, AI etc
